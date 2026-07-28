@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.output/
+.vercel/
+.netlify/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+$null
+
+# Terraform
+aws-infra/terraform/.terraform/
+aws-infra/terraform/*.tfstate
+aws-infra/terraform/*.tfstate.*
+aws-infra/terraform/terraform.tfvars
+aws-infra/terraform/.terraform.lock.hcl
+aws-infra/terraform/crash.log
+aws-infra/terraform/crash.*.log
